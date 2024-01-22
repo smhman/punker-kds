@@ -68,6 +68,7 @@ const FormAddOrderWrapper = styled.div`
 interface Props {
   onClose: () => void
   onFormSubmit: (e: React.FormEvent<HTMLFormElement>) => void
+
 }
 
 const FormAddOrder: React.FC<Props> = ({ onClose, onFormSubmit }) => {
