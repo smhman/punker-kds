@@ -17,8 +17,8 @@ const Table = styled.button<{ selected: boolean }>`
   padding: 10px;
   background-color: ${({ selected }) => selected ? '#000000' : 'transparent'};
   color: ${({ selected }) => selected ? 'white' : 'black'};
-  border: 1px solid #000000;
-  border-radius: 8px;
+  border: 2px solid #000000;
+  border-radius: 20px;
   text-align: center;
   cursor: pointer;
   font-weight: bold;

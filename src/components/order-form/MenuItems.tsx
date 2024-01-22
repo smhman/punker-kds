@@ -7,13 +7,13 @@ import { type OrderItemInterface } from '../../interfaces/orderInterface'
 const MenuItemsContainer = styled.aside`
   display: flex;
   flex-direction: column;
-  gap: 5px;
+  gap: 10px;
   height: 100%;
   overflow-y: auto;
 `
 
 const MenuItemTitle = styled.h3`
-  font-size: 1.2rem;
+  font-size: 1.3rem;
   font-weight: bold;
   text-align: center;
 `
@@ -28,11 +28,11 @@ const MenuItemsWrapper = styled.div`
 
 const MenuItem = styled.button`
   padding: 10px;
-  border-radius: 8px;
+  border-radius: 100px;
   border: none;
   /* background-color: #0000009E; */
   background-color: #ffffff;
-  border: 1px solid #000000;
+  border: 2px solid #000000;
   color: black;
   cursor: pointer;
   font-weight: bold;

@@ -7,12 +7,12 @@ const SideBarContainer = styled.aside`
   display: grid;
   grid-template-rows: auto 1fr auto;
   place-items: center;
-  gap: 20px;
+  gap: 10px;
   padding: 10px;
   border-right: 1px solid #ccc;
 
   img {
-    width: 150px;
+    width: 130px;
   }
 
   @media (max-width: 768px) {
@@ -25,17 +25,17 @@ const NewOrderButton = styled.button`
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 10px;
+  gap: 8px;
   width: 100%;
   padding: 10px;
   border: none;
-  border-radius: 8px;
+  border-radius: 10px;
   background-color: #000000;
   color: white;
   font-weight: bold;
-  font-size: 1.2rem;
+  font-size: 1.3rem;
   cursor: pointer;
-  transition: background-color 0.2s ease-in-out;
+  transition: background-color 0.4s ease-in-out;
 `
 
 interface Props {

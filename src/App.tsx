@@ -13,8 +13,8 @@ import { type OrderInterface } from './interfaces/orderInterface'
 const AppContainer = styled.div`
   display: grid;
   grid-template-columns: auto 1fr;
-  gap: 10px;
-  width: 100%;
+  gap:50px;
+  width: 96%;
   min-height: 100vh;
 
   @media (max-width: 768px) {

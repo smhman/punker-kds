@@ -7,16 +7,16 @@ import { useSelector } from 'react-redux'
 import { type RootState } from '../../app/store'
 
 const FormAddOrderContainer = styled.form`
-  width: 90%;
-  height: 90%;
+  width: 67%;
+  height: 96%;
   background-color: white;
-  border-radius: 8px;
-  padding: 10px;
+  border-radius: 20px;
+  padding: 15px;
   overflow-y: hidden;
   display: grid;
   grid-template-rows: auto 1fr;
-  gap: 10px;
-  animation: scaleIn 0.3s ease-in-out;
+  gap: 15px;
+  animation: scaleIn 0.4s ease-in-out;
 
   & > div {
     display: grid;
@@ -27,7 +27,7 @@ const FormAddOrderContainer = styled.form`
     & > div {
       display: flex;
       flex-direction: column;
-      gap: 10px;
+      gap: 12px;
       overflow-y: auto;
     }
   }
@@ -49,7 +49,7 @@ const FormAddOrderHeader = styled.section`
   align-items: center;
   gap: 10px;
   padding-bottom: 10px;
-  border-bottom: 1px solid #ccc;
+  border-bottom: 3px solid #000;
 
   & > div {
     display: flex;

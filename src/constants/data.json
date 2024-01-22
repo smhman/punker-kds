@@ -2,31 +2,31 @@
   "menu": [
     {
       "id": "1",
-      "name": "Hamburguesa"
+      "name": "HotShot"
     },
     {
       "id": "2",
-      "name": "Pizza"
+      "name": "Gin"
     },
     {
       "id": "3",
-      "name": "Ensalada César"
+      "name": "Cult"
     },
     {
       "id": "4",
-      "name": "Sushi"
+      "name": "Pepsi"
     },
     {
       "id": "5",
-      "name": "Tacos al pastor"
+      "name": "Vesi Mullita"
     },
     {
       "id": "6",
-      "name": "Lasagna"
+      "name": "Vesi Mulliga"
     },
     {
       "id": "7",
-      "name": "Sopa de pollo"
+      "name": "Pringles"
     },
     {
       "id": "8",

@@ -10,13 +10,15 @@ const OrderInfoContainer = styled.div`
   flex-direction: column;
   gap: 10px;
   overflow-y: auto;
+  border-right: 0px solid #FFF;
+
 
   h3 {
     text-align: center;
-    border-top: 1px solid #ccc;
-    border-bottom: 1px solid #ccc;
+    border-top: 3px solid #000;
+    border-bottom: 3px solid #000;
     
-    position: sticky;
+    position: auto;
     top: 0;
     background-color: white;
   }
@@ -30,7 +32,7 @@ const OrdenInfoItem = styled.div`
 
 const OrderItem = styled.div`
   padding: 10px;
-  border-radius: 8px;
+  border-radius: 10px;
   border: none;
   background-color: #219ebc;
   color: white;
@@ -49,7 +51,7 @@ const OrderQuantityContainer = styled.div`
     font-size: 1.2rem;
     padding: 0 10px;
     border: 1px solid #ccc;
-    border-radius: 8px;
+    border-radius: 10px;
     height: 35px;
   }
 `

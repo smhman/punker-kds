@@ -7,9 +7,9 @@ const OrderItemContainer = styled.div`
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
-  gap: 10px;
-  width: 100%;
-  border-bottom: 1px solid #ccc;
+  gap: 15px;
+  width: 90%;
+  border-bottom: 2.5px solid #ccc;
 
   &:last-child {
     border-bottom: none;
