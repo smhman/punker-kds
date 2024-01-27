@@ -44,6 +44,7 @@ function App (): JSX.Element {
       table: newTableOrder,
       products: orderItems,
       status: 'pending',
+      price: 'number',
       timestamp: new Date().toISOString()
     }
 

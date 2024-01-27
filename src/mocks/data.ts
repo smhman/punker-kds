@@ -4,6 +4,7 @@ export const orders: OrderInterface[] = [
   {
     id: '1',
     table: '1',
+    price: '2',
     products: [
       {
         id: '1',
@@ -11,11 +12,12 @@ export const orders: OrderInterface[] = [
         itemId: '1',
         name: 'Product 1',
         quantity: 2,
+        price: '2'
         // specialInstructions: {
         //   include: "Extra mayonese, Extra coke, Extra fries",
         //   exclude: "No ketchup"
         // },
-        isCompleted: false
+        ,isCompleted: false
       },
       {
         id: '2',
@@ -23,11 +25,12 @@ export const orders: OrderInterface[] = [
         itemId: '1',
         name: 'Product 2',
         quantity: 1,
+        price: '4'
         // specialInstructions: {
         //   include: "Extra mayonese, Extra coke, Extra fries",
         //   exclude: ""
         // },
-        isCompleted: false
+        ,isCompleted: false
       },
       {
         id: '3',
@@ -35,11 +38,12 @@ export const orders: OrderInterface[] = [
         itemId: '1',
         name: 'Product 3',
         quantity: 1,
+        price: '8'
         // specialInstructions: {
         //   include: "",
         //   exclude: "No ketchup"
         // },
-        isCompleted: false
+        ,isCompleted: false
       }
     ],
     status: 'cancelled',
@@ -48,6 +52,7 @@ export const orders: OrderInterface[] = [
   {
     id: '2',
     table: '2',
+    price: '21',
     products: [
       {
         id: '4',
@@ -55,11 +60,12 @@ export const orders: OrderInterface[] = [
         itemId: '1',
         name: 'Product 4',
         quantity: 1,
+        price: '4'
         // specialInstructions: {
         //   include: "",
         //   exclude: ""
         // },
-        isCompleted: false
+        ,isCompleted: false
       },
       {
         id: '5',
@@ -67,6 +73,8 @@ export const orders: OrderInterface[] = [
         itemId: '1',
         name: 'Product 5',
         quantity: 1,
+        price: '1',
+        
         // specialInstructions: {
         //   include: "",
         //   exclude: ""
@@ -80,6 +88,7 @@ export const orders: OrderInterface[] = [
   {
     id: '3',
     table: '3',
+    price: '2',
     products: [
       {
         id: '6',
@@ -87,11 +96,12 @@ export const orders: OrderInterface[] = [
         itemId: '1',
         name: 'Product 6',
         quantity: 1,
+        price: '1'
         // specialInstructions: {
         //   include: "",
         //   exclude: ""
         // },
-        isCompleted: false
+        ,isCompleted: false
       },
       {
         id: '7',
@@ -99,10 +109,12 @@ export const orders: OrderInterface[] = [
         itemId: '1',
         name: 'Product 7',
         quantity: 1,
+        price: '10'
         // specialInstructions: {
         //   include: "",
         //   exclude: ""
-        // },
+        // }
+        ,
         isCompleted: true
       }
     ],
@@ -112,6 +124,7 @@ export const orders: OrderInterface[] = [
   {
     id: '4',
     table: '4',
+    price: '10',
     products: [
       {
         id: '8',
@@ -119,6 +132,7 @@ export const orders: OrderInterface[] = [
         itemId: '1',
         name: 'Product 8',
         quantity: 1,
+        price: '12',
         // specialInstructions: {
         //   include: "",
         //   exclude: ""
@@ -131,6 +145,7 @@ export const orders: OrderInterface[] = [
         itemId: '1',
         name: 'Product 9',
         quantity: 1,
+        price: '2',
         // specialInstructions: {
         //   include: "",
         //   exclude: ""

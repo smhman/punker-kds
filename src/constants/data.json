@@ -2,7 +2,10 @@
   "menu": [
     {
       "id": "1",
-      "name": "HotShot"
+      "name": "HotShot",
+      "price": "10eur",
+      "special": "false",
+      "stock": "unlimited_fr"
     },
     {
       "id": "2",

@@ -1,6 +1,7 @@
 export type OrderStatus = 'pending' | 'inProgress' | 'done' | 'cancelled'
 export type OrderStatusFilter = 'all' | OrderStatus
 export type FilterValue = 'all' | OrderStatus
+export type Price = '1' | '2'
 
 export interface SpecialInstructions {
   include: string
@@ -13,6 +14,7 @@ export interface OrderInterface {
   products: OrderItemInterface[]
   status: OrderStatus
   timestamp: string
+  price: string
 }
 
 export interface OrderItemInterface {
@@ -21,6 +23,7 @@ export interface OrderItemInterface {
   orderId: OrderInterface['id']
   name: string
   quantity: number
+  price: string
   // specialInstructions: SpecialInstructions;
   isCompleted: boolean
 }

@@ -3,7 +3,7 @@ export const KDS_FILTERS = {
   PENDING: 'pending',
   IN_PROGRESS: 'inProgress',
   DONE: 'done',
-  CANCELLED: 'cancelled'
+  CANCELLED: 'cancelled',
 } as const
 
 export const FILTERS_BUTTONS = {
@@ -27,4 +27,6 @@ export const FILTERS_BUTTONS = {
     literal: 'CANCELLED',
     href: `/?filter=${KDS_FILTERS.CANCELLED}`
   }
+  
+
 } as const
