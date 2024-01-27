@@ -7,8 +7,8 @@ import { useSelector } from 'react-redux'
 import { type RootState } from '../../app/store'
 
 const FormAddOrderContainer = styled.form`
-  width: 67%;
-  height: 96%;
+  width: 95%;
+  height: 93%;
   background-color: white;
   border-radius: 20px;
   padding: 15px;
