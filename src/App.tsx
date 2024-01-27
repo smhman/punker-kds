@@ -14,7 +14,7 @@ const AppContainer = styled.div`
   display: grid;
   grid-template-columns: auto 1fr;
   gap:50px;
-  width: 96%;
+  width: 100%;
   min-height: 100vh;
 
   @media (max-width: 768px) {
